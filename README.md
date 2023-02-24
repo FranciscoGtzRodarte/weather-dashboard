@@ -37,7 +37,7 @@ The following image shows the web application's wireframe layout:
 
 The following image shows the web application's appearance and functionality:
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="900" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FafOQcoEG5TewLBEm8wCM5t%2FWeather-Dashboard---Wireframe%3Fnode-id%3D4%253A160%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D4%253A160" allowfullscreen></iframe>
+[Weather Dashboard prototype - Made in Figma](https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FafOQcoEG5TewLBEm8wCM5t%2FWeather-Dashboard---Wireframe%3Fnode-id%3D4%253A160%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D4%253A160)
 
 ## Instructions
 

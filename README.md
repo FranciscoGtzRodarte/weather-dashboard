@@ -26,11 +26,18 @@ WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 ```
 
+## Wireframes
+
+The following image shows the web application's wireframe layout:
+
+![Wireframe LoFi](./assets/img/Weather-Dashboard-Wireframe.png)
+![Wireframe HiFi](./assets/img/Weather-Dashboard-HiFi.png)
+
 ## Mock-Up
 
 The following image shows the web application's appearance and functionality:
 
-![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for Atlanta.](./assets/img/06-server-side-apis-homework-demo.png)
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="900" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FafOQcoEG5TewLBEm8wCM5t%2FWeather-Dashboard---Wireframe%3Fnode-id%3D4%253A160%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D4%253A160" allowfullscreen></iframe>
 
 ## Instructions
 
@@ -41,10 +48,10 @@ The following image shows the web application's appearance and functionality:
 ## APIS Used
 
 It uses the [5 Day Weather Forecast](https://openweathermap.org/forecast5) to retrieve weather data for cities and
-and the [Day API]() to retrieve the current date.
+and the [Day Js](https://day.js.org/en/) to retrieve the current date.
 
 ## Deployed Site Link
 
-https://franciscogtzrodarte.github.io/work-day-scheduler/
+https://franciscogtzrodarte.github.io/weather-dashboard/
 
-## Thank you for using this app
+### Thank you for using this app

@@ -1,13 +1,7 @@
 :root {
   --main-color: linear-gradient(180deg, rgba(0, 50, 110, 0.8) 0%, #052449 100%);
   --main-color-2: #061937;
-
   --base-color: #e8e8e8;
-  --bs-gradient: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.15),
-    rgba(255, 255, 255, 0)
-  );
 }
 
 .cardw {

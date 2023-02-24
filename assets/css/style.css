@@ -1,0 +1,178 @@
+:root {
+  --main-color: linear-gradient(180deg, rgba(0, 50, 110, 0.8) 0%, #052449 100%);
+  --main-color-2: #061937;
+
+  --base-color: #e8e8e8;
+  --bs-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+.cardw {
+  height: 10rem;
+  margin: 0.6rem;
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 5px 4px 11px rgba(0, 0, 0, 0.15),
+    inset 0px 1.06933px 2.13865px rgba(255, 255, 255, 0.4),
+    inset 0px -1.06933px 3.20798px rgba(255, 255, 255, 0.5),
+    inset 0px -0.534663px 7.12884px rgba(255, 255, 255, 0.24),
+    inset 0px 7.12884px 7.12884px rgba(255, 255, 255, 0.24),
+    inset 0px 0.356442px 7.30706px rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(3.56442px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 10px;
+
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 240%;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+
+  color: rgba(0, 50, 110, 0.8);
+}
+
+.cardw p {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50%;
+  line-height: 25px;
+
+  color: rgba(0, 50, 110, 0.8);
+}
+
+.cardw img {
+  margin-right: 2rem;
+}
+
+h2 {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+
+  color: #535353;
+}
+
+h3 {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.bg-base {
+  background: var(--base-color);
+}
+
+.bg-main {
+  background: var(--main-color);
+}
+
+.bg-main-2 {
+  background: var(--main-color-2);
+}
+
+#wicon {
+  margin-left: 1rem;
+}
+.forecast-cards {
+  box-shadow: 4px 4px 10px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  padding: 0.8rem;
+}
+
+.forecast-cards p {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 80%;
+  line-height: 12px;
+  text-align: center;
+  margin-bottom: 0.8rem;
+  color: #ffffff;
+}
+
+.forecast-cards img {
+  margin: 0.5rem 1.5rem;
+}
+
+#search-form {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.7666px;
+}
+
+.form-input {
+  width: 68%;
+  border-radius: 6.5694px;
+  border: 0;
+}
+
+.btn-search {
+  width: 28%;
+  padding: 16px;
+  margin-left: 0.7rem;
+  border-radius: 6.5694px;
+}
+
+.btn-block-side {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 150%;
+  line-height: 38px;
+  text-align: left;
+  background-color: #0d195438;
+  border: 0;
+  color: white;
+}
+
+.btn-block-side:hover {
+  background-color: #152b409e;
+  color: white;
+}
+
+li {
+  font-family: "Plus Jakarta Sans";
+  /* font-style: normal; */
+  /* font-weight: 200; */
+  list-style: none;
+  /* margin: 1rem 1rem 1rem 0rem; */
+  background-color: var(--answers-color);
+  /* display: flex; */
+  /* justify-content: space-between; */
+  padding: 0.5rem 1rem;
+  /* border-radius: 5px; */
+  /* font-size: 115%; */
+  /* user-select: none; */
+}
+
+footer li {
+  background-color: transparent;
+  opacity: 0.5;
+}
+
+footer li:hover {
+  background-color: var(--btn-color);
+  opacity: 1;
+}
+footer li:hover a {
+  color: white;
+}
+
+.rights {
+  background-color: #05142c;
+}
+.rights span {
+  color: #1b5a87;
+  margin: 0;
+}

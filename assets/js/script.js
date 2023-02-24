@@ -37,7 +37,7 @@ $(function () {
   //displays current Weather from Open Weather API
   function displayAPI(city) {
     var queryURL =
-      "http://api.openweathermap.org/data/2.5/weather?q=" +
+      "https://api.openweathermap.org/data/2.5/weather?q=" +
       city +
       "&appid=" +
       APIKey +
@@ -86,7 +86,7 @@ $(function () {
     //api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}
 
     var queryURL =
-      "http://api.openweathermap.org/data/2.5/forecast?lat=" +
+      "https://api.openweathermap.org/data/2.5/forecast?lat=" +
       lat +
       "&lon=" +
       lon +

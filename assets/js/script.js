@@ -6,7 +6,6 @@ $(function () {
   //variable declarations
   var APIKey = "8842b0a63cc95a90d2cde5cc0a71cb7a";
   var initCity = "Denver";
-  var todayEl = $("#today-content");
   var weekEl = $("#week-content");
   var cityNameEl = $("#city-name");
   var citiesEl = $("#cities");
@@ -33,7 +32,6 @@ $(function () {
   }
   displayAPI(initCity); //starts with Denver city as default
 
-  /////////////
   /////////////////////////////////////////////////////functions
 
   //displays current Weather from Open Weather API
